@@ -46,3 +46,102 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(../images/connectwork.png);
+}
+
+h2 {
+    color: #4AAAA5;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+.header-container, .hero, .primary-footer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background: #fff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    	box-sizing: border-box;
+}
+
+.logo {
+    background: #4AAAA5;
+    padding: 14px;
+    color: #fff;
+    float: left;
+}
+
+.primary-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.primary-nav li {
+    float: right;
+}
+
+.primary-nav a {
+    text-align: center;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.primary-nav a:visited {
+    color: #777777;
+}
+
+.container {
+    clear: both;
+    padding: 30px;
+}
+
+.hero {
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+}
+
+.hero p {
+    line-height: 1.8;
+}
+
+.profile-pic {
+    float: left;
+    margin-right: 15px; 
+    width: 150px;
+    height: 150px;
+}
+
+.primary-footer {
+    position: fixed;
+    bottom: 0;
+}
