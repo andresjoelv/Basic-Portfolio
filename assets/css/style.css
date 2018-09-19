@@ -97,6 +97,11 @@ header {
     font-size: 24px;
 }
 
+.logo:hover {
+    color: #4AAAA5;
+    background: #fff;
+}
+
 .primary-nav {
     list-style-type: none;
     margin: 0;
@@ -107,13 +112,17 @@ header {
 
 .primary-nav li {
     float: right;
+    padding: 34px 0 33px 30px;
 }
 
 .primary-nav a {
     text-align: center;
     display: block;
     text-decoration: none;
-    padding: 34px 0 33px 30px;
+}
+
+.primary-nav li a:hover {
+    color: #4AAAA5;
 }
 
 .primary-nav a:visited {
@@ -203,6 +212,10 @@ footer {
     margin-bottom: 50px;
 }
 
+#last {
+    margin-bottom: 0;
+}
+
 .desc {
     position: absolute;
     bottom: 15px;
@@ -210,5 +223,38 @@ footer {
     background: #4AAAA5;
     color: #fff;
     width: 100%;
+    text-align: center;
+}
+
+.image {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #4AAAA5;
+}
+
+.column:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
 }
