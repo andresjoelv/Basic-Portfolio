@@ -90,9 +90,11 @@ header {
 
 .logo {
     background: #4AAAA5;
-    padding: 14px;
+    padding: 30px;
     color: #fff;
     float: left;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .primary-nav {
@@ -110,23 +112,31 @@ header {
 .primary-nav a {
     text-align: center;
     display: block;
-    padding: 14px 16px;
     text-decoration: none;
+    padding: 34px 0 33px 30px;
 }
 
 .primary-nav a:visited {
     color: #777777;
 }
 
+/*
+  ==================================
+  Main Section
+  ==================================
+*/
+
 .container {
+    font-size: 18px;
     clear: both;
     padding: 30px;
+    margin-bottom: 30px;
 }
 
 .hero {
     margin: 0 auto;
     background: #fff;
-    padding: 20px;
+    padding: 25px;
     border: 1px solid #dddddd;
 }
 
@@ -141,7 +151,64 @@ header {
     height: 150px;
 }
 
+/*
+ ==========================
+ Footer
+ ==========================
+*/
+
+footer {
+    border-top: 5px solid #4AAAA5;
+}
+
 .primary-footer {
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+    background: #666666;
     position: fixed;
     bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: small;
+}
+
+/*
+  ==========================
+  Portfolio
+  =========================
+*/
+
+.column img {
+    width: 302px;
+    height: 200px;
+}
+
+.column {
+  float: left;
+  width: 33.30%;
+  position: relative;
+  margin-right: 20px;
+}
+
+
+/* Clear floats after the columns */
+.grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid {
+    margin-bottom: 50px;
+}
+
+.desc {
+    position: absolute;
+    bottom: 15px;
+    padding: 15px;
+    background: #4AAAA5;
+    color: #fff;
+    width: 100%;
+    text-align: center;
 }
